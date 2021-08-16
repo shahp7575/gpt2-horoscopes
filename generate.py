@@ -22,7 +22,7 @@ def generate(model, tokenizer, temperature, num_outputs, top_k):
     
     
 if __name__ == "__main__":
-    category = 'birthday'
+    category = 'general'
     prompt = make_prompt(category)
     
     model = GPT2LMHeadModel.from_pretrained(config.MODEL_DIR)

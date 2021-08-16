@@ -1,7 +1,10 @@
 # GPT2-Horoscopes
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/jkanner/streamlit-audio/main/app.py)
 
 ## Model Description
 GPT2 fine-tuned on Horoscopes dataset scraped from [Horoscopes.com](https://www.horoscope.com/us/index.aspx). This model generates horoscopes given a horoscope *category*.
+
+Try it out on the Streamlit [web app]()!
 
 ## Uses & Limitations
 

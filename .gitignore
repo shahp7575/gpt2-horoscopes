@@ -141,6 +141,7 @@ cython_debug/
 pytorch_model.bin
 model/
 horoscope_env/
+gpt2-horoscopes/
 
 # data
 data/

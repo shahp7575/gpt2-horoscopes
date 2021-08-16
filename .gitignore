@@ -150,3 +150,4 @@ data/
 exploratory/to-dos.ipynb
 exploratory/scraper.ipynb
 exploratory/cleaned_data_check.ipynb
+push_to_hub.ipynb

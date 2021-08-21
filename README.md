@@ -9,7 +9,7 @@ Try it out on the Streamlit [web app](https://share.streamlit.io/shahp7575/gpt2-
 ## Uses & Limitations
 
 ### How to use
-The model can be used directly with the HuggingFace `pipeline` API.
+The model can be used directly with the HuggingFace `Auto` Class.
 ```python
 from transformers import AutoTokenizer, AutoModelWithLMHead
 

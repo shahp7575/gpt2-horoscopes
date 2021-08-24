@@ -37,7 +37,7 @@ sample_outputs = model.generate(prompt,
 ```
 
 ### Training Data
-Dataset is scraped from [Horoscopes.com](https://www.horoscope.com/us/index.aspx) for 5 categories with a total of ~12k horoscopes. The dataset will be made public soon.
+Dataset is scraped from [Horoscopes.com](https://www.horoscope.com/us/index.aspx) for 5 categories with a total of ~12k horoscopes. The dataset can be found on [Kaggle](https://www.kaggle.com/shahp7575/horoscopes).
 
 ### Training Procedure
 The model uses the [GPT2](https://huggingface.co/gpt2) checkpoint and then is fine-tuned on horoscopes dataset for 5 different categories. Since the goal of the fine-tuned model was also to understand different horoscopes for different category types, the *categories* are added to the training data separated by special token `<|category|>`. 
